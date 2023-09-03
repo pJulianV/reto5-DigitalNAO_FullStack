@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drawer {
+  @apply z-20 fixed pointer-events-none;
+  .btn {
+    @apply z-10 absolute left-0 top-0 pointer-events-auto 
+    w-12 h-12 btn-primary border-[1px] border-base-200
+    lg:hidden
+    ;
+  }
+  
+  &-content {
+    @apply w-full absolute top-[15px] left-[10px];
+  }
+  &-side {
+    @apply lg:w-[247px];
+    .menu {
+      @apply relative w-[247px] border-r-[1px] border-base-200;
+      .groth-logo {
+        @apply w-36 mb-9;
+      }
+      ul{
+        @apply flex flex-col gap-5;
+        li {
+          @apply h-10 ;
+          a {
+            span {
+              @apply text-base-300
+            }
+          }
+          .active {
+            @apply bg-blue;
+            img {
+              filter: brightness(10);
+            }
+            span {
+              @apply text-white
+            }
+          }
+        }
+      }
+      .separator {
+        @apply w-full h-[1px] bg-base-200 mt-11 mb-3;
+      }
+      .btn {
+        @apply top-[15px] left-[10px];
+      }
+    }
+  }
+}
+
+.btn-inner {
+  @apply absolute h-full w-full 
+  flex flex-col justify-between py-3 items-center;
+  .bars {
+    @apply h-[1px] w-[70%] bg-base-200 rounded-3xl;
+  }
+}
+
+a {
+  @apply pointer-events-auto;
+}

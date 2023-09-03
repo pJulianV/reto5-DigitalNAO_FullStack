@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-bar {
+  @apply z-10 fixed top-0 bg-neutral h-20 border-b-[1px] border-b-base-200
+  flex justify-between
+   lg:right-0
+  ;
+
+  @media (min-width: 976px) {
+    width: calc(100% - 247px) !important;
+    padding: 0px 32px !important;
+  }
+
+  &-left-content {
+    @apply hidden 
+    lg:flex lg:flex-col lg:items-start;
+    .welcome {
+      @apply font-semibold text-xl;
+    }
+    .date {
+      @apply font-light text-sm text-base-300;
+    }
+  }
+
+  &-right-content {
+    @apply flex-1 flex justify-end gap-[18px];
+
+    &-icons {
+      @apply flex gap-7;
+    }
+    &-separator {
+     @apply hidden h-8 w-[1px] mx-7 bg-base-200
+     lg:flex
+     ; 
+    }
+    input {
+      @apply w-[48px]
+      lg:w-[389px];
+
+      padding-left: 40px; /* Adjust this value based on the width of the icon */
+      background-image: url("../../assets/svg/search.svg");
+      background-position: 10px center; /* Adjust the positioning of the background image */
+    background-repeat: no-repeat;
+    background-size: 24px auto; /* Adjust the size of the background image */
+
+
+    }
+  }
+}

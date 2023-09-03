@@ -1,0 +1,9 @@
+.lg {
+  @apply relative;
+  .data {
+    @apply w-full h-full;
+    .chart {
+      @apply w-full h-[200px]
+    }
+  }
+}

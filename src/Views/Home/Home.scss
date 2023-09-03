@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  @apply flex flex-col gap-8
+  xl:flex-row
+  ;
+
+  .main-cards, .side-cards, .small-cards, .large-cards {
+    @apply flex flex-col gap-8;
+  }
+  .main-cards {
+    @apply flex-1;
+    .small-cards {
+      @apply md:flex-row
+    }
+  }
+  .side-cards {
+    @apply flex-1 xl:max-w-[20vw]
+    ;
+    .top-products {
+      .top {
+        @apply flex flex-col;
+        &-item {
+          @apply h-[25vw] max-h-[140px] flex gap-4 py-[16px] border-b-[1px] border-b-base-200 
+          lg:h-[80px]
+          ;
+
+          img {
+            @apply w-auto h-full;
+          }
+          &-data {
+            @apply flex-grow flex flex-col justify-between gap-1 max-w-[200px];
+            &-top {
+              @apply font-[500] md:text-sm;
+            }
+            &-bot {
+              @apply flex justify-between items-center
+              text-base-300
+              ;
+              .category {
+                 @apply text-sm w-[40px];
+              }
+              .separator {
+                 @apply text-[18px];
+              }
+              .rate {
+                 @apply bg-green text-[#037400] rounded px-2 py-1
+                md:text-xs;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

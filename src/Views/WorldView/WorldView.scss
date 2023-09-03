@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.world-data {
+  @apply flex flex-col gap-8;
+ .world-container {
+  @apply w-full h-[500px]
+ }
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data-card {
+  @apply bg-white border-[1px] border-base-200 rounded-xl min-h-[185px]
+    p-[16px]
+  ;
+  h2 {
+    @apply mt-[5px] mb-[12px]
+  }
+
+}
+.register-form {
+  @apply w-[70vw] max-w-[311px] min-h-[auto] ;
+    form {
+      @apply flex flex-col;
+      .form-item {
+        @apply flex flex-col;
+        input {
+          @apply bg-base-200
+        }
+      }
+    }
+}

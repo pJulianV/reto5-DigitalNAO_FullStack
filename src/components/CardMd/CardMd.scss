@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.md {
+  @apply h-full
+  md:w-1/2
+  ;
+  .data {
+    @apply flex justify-between h-[100px];
+
+    &-left, &-right {
+      @apply h-full;
+    }
+
+    &-left {
+      @apply flex flex-col justify-end;
+      &-top {
+        @apply flex flex-col;
+        .sub {
+          @apply text-[15px] font-[600];
+        }
+        .num {
+          @apply font-bold text-[32px];
+        }
+      }
+      &-bottom {
+        @apply flex gap-3 items-center;
+        .rate {
+          @apply text-xs bg-green text-[#037400] rounded px-2 py-1;
+        }
+        .small-num {
+          @apply text-sm text-base-300
+        }
+      }
+    }
+    &-right {
+      @apply w-[150px] h-full
+    }
+  }
+}

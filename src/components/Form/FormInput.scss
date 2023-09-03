@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input {
+  @apply flex flex-col; 
+
+  .error {
+    @apply h-[15px] mb-[-15px];
+    span {
+      @apply text-orange;
+    }
+  }
+}

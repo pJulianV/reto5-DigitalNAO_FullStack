@@ -1,0 +1,1490 @@
+{
+  "users": [
+    {
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "username": "juanperez",
+      "email": "juanperez@mail.com",
+      "pw": "12345678",
+      "id": 1
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Gonzalez",
+      "username": "mariagonzalez",
+      "email": "mariagonzalez@gmail.com",
+      "pw": "123456789",
+      "id": 2
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Jimenez",
+      "username": "pedroJimenez",
+      "email": "pedroJimenez@mymail.com",
+      "pw": "1234567890",
+      "id": 3
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Rodriguez",
+      "username": "anaRodriguez",
+      "email": "anaRodriguez@email.com",
+      "pw": "12345678901",
+      "id": 4
+    },
+    {
+      "firstName": "Luis",
+      "lastName": "Sanchez",
+      "username": "luisSanchez",
+      "email": "luisSanchez@mymail.com",
+      "pw": "123456789012",
+      "id": 5
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "username": "juanperez",
+      "email": "sandsperez@gmail.com",
+      "pw": "12345678",
+      "id": 6
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "username": "juanperez",
+      "email": "sandsperez@gmail.com",
+      "pw": "12345678",
+      "id": 7
+    }
+  ],
+  "data": {
+    "avg_revenue": {
+      "big_num": 4677,
+      "small_num": 362,
+      "rate": 20,
+      "chart": [
+        {
+          "id": "1",
+          "color": "#fff",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 50
+            },
+            {
+              "x": "Mon",
+              "y": 65
+            },
+            {
+              "x": "Tue",
+              "y": 32
+            },
+            {
+              "x": "Wed",
+              "y": 78
+            },
+            {
+              "x": "Thu",
+              "y": 90
+            },
+            {
+              "x": "Fri",
+              "y": 45
+            },
+            {
+              "x": "Sat",
+              "y": 60
+            }
+          ]
+        }
+      ]
+    },
+    "cust_return": {
+      "big_num": 8754,
+      "small_num": 201,
+      "rate": 15,
+      "chart": [
+        {
+          "id": "1",
+          "color": "#fff",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 30
+            },
+            {
+              "x": "Mon",
+              "y": 45
+            },
+            {
+              "x": "Tue",
+              "y": 72
+            },
+            {
+              "x": "Wed",
+              "y": 56
+            },
+            {
+              "x": "Thu",
+              "y": 82
+            },
+            {
+              "x": "Fri",
+              "y": 38
+            },
+            {
+              "x": "Sat",
+              "y": 50
+            }
+          ]
+        }
+      ]
+    },
+    "big_chart": {
+      "chart": [
+        {
+          "id": "1",
+          "color": "blue",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 30
+            },
+            {
+              "x": "Mon",
+              "y": 45
+            },
+            {
+              "x": "Tue",
+              "y": 72
+            },
+            {
+              "x": "Wed",
+              "y": 56
+            },
+            {
+              "x": "Thu",
+              "y": 82
+            },
+            {
+              "x": "Fri",
+              "y": 38
+            },
+            {
+              "x": "Sat",
+              "y": 50
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "color": "red",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 50
+            },
+            {
+              "x": "Mon",
+              "y": 65
+            },
+            {
+              "x": "Tue",
+              "y": 32
+            },
+            {
+              "x": "Wed",
+              "y": 78
+            },
+            {
+              "x": "Thu",
+              "y": 90
+            },
+            {
+              "x": "Fri",
+              "y": 45
+            },
+            {
+              "x": "Sat",
+              "y": 60
+            }
+          ]
+        }
+      ]
+    },
+    "invoices": [
+      {
+        "num": 1,
+        "id": 4321,
+        "cust": "John Doe",
+        "city": "New York",
+        "date": "15/05 | 10:30",
+        "status": "Paid",
+        "amount": "$4500"
+      },
+      {
+        "num": 2,
+        "id": 1234,
+        "cust": "Jane Smith",
+        "city": "London",
+        "date": "20/05 | 14:15",
+        "status": "Pending",
+        "amount": "$2500"
+      },
+      {
+        "num": 3,
+        "id": 5678,
+        "cust": "Mark Johnson",
+        "city": "Paris",
+        "date": "18/05 | 09:45",
+        "status": "Paid",
+        "amount": "$3200"
+      },
+      {
+        "num": 4,
+        "id": 7890,
+        "cust": "Emily Brown",
+        "city": "Tokyo",
+        "date": "16/05 | 11:20",
+        "status": "Pending",
+        "amount": "$1800"
+      },
+      {
+        "num": 5,
+        "id": 2468,
+        "cust": "Michael Wilson",
+        "city": "Berlin",
+        "date": "19/05 | 16:55",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 6,
+        "id": 9876,
+        "cust": "Sarah Davis",
+        "city": "Sydney",
+        "date": "17/05 | 12:45",
+        "status": "Paid",
+        "amount": "$4100"
+      },
+      {
+        "num": 7,
+        "id": 5432,
+        "cust": "Robert Johnson",
+        "city": "Los Angeles",
+        "date": "21/05 | 09:30",
+        "status": "Pending",
+        "amount": "$3200"
+      },
+      {
+        "num": 8,
+        "id": 1357,
+        "cust": "Olivia Wilson",
+        "city": "Toronto",
+        "date": "16/05 | 15:20",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 9,
+        "id": 8024,
+        "cust": "Daniel Lee",
+        "city": "Seoul",
+        "date": "22/05 | 10:10",
+        "status": "Paid",
+        "amount": "$2800"
+      },
+      {
+        "num": 10,
+        "id": 6741,
+        "cust": "Sophia Miller",
+        "city": "Melbourne",
+        "date": "20/05 | 13:55",
+        "status": "Pending",
+        "amount": "$1900"
+      },
+      {
+        "num": 11,
+        "id": 4321,
+        "cust": "John Doe",
+        "city": "New York",
+        "date": "15/05 | 10:30",
+        "status": "Paid",
+        "amount": "$4500"
+      },
+      {
+        "num": 12,
+        "id": 1234,
+        "cust": "Jane Smith",
+        "city": "London",
+        "date": "20/05 | 14:15",
+        "status": "Pending",
+        "amount": "$2500"
+      },
+      {
+        "num": 13,
+        "id": 5678,
+        "cust": "Mark Johnson",
+        "city": "Paris",
+        "date": "18/05 | 09:45",
+        "status": "Paid",
+        "amount": "$3200"
+      },
+      {
+        "num": 14,
+        "id": 7890,
+        "cust": "Emily Brown",
+        "city": "Tokyo",
+        "date": "16/05 | 11:20",
+        "status": "Pending",
+        "amount": "$1800"
+      },
+      {
+        "num": 15,
+        "id": 2468,
+        "cust": "Michael Wilson",
+        "city": "Berlin",
+        "date": "19/05 | 16:55",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 16,
+        "id": 9876,
+        "cust": "Sarah Davis",
+        "city": "Sydney",
+        "date": "17/05 | 12:45",
+        "status": "Paid",
+        "amount": "$4100"
+      },
+      {
+        "num": 17,
+        "id": 5432,
+        "cust": "Robert Johnson",
+        "city": "Los Angeles",
+        "date": "21/05 | 09:30",
+        "status": "Pending",
+        "amount": "$3200"
+      },
+      {
+        "num": 18,
+        "id": 1357,
+        "cust": "Olivia Wilson",
+        "city": "Toronto",
+        "date": "16/05 | 15:20",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 19,
+        "id": 8024,
+        "cust": "Daniel Lee",
+        "city": "Seoul",
+        "date": "22/05 | 10:10",
+        "status": "Paid",
+        "amount": "$2800"
+      },
+      {
+        "num": 20,
+        "id": 6741,
+        "cust": "Sophia Miller",
+        "city": "Melbourne",
+        "date": "20/05 | 13:55",
+        "status": "Pending",
+        "amount": "$1900"
+      }
+    ],
+    "products": [
+      {
+        "num": 1,
+        "id": 1234,
+        "prod": "Widget A",
+        "category": "Electronics",
+        "sales": 2500,
+        "amount": 5500
+      },
+      {
+        "num": 2,
+        "id": 2345,
+        "prod": "Gadget B",
+        "category": "Accessories",
+        "sales": 1200,
+        "amount": 3200
+      },
+      {
+        "num": 3,
+        "id": 3456,
+        "prod": "Tool C",
+        "category": "Hardware",
+        "sales": 800,
+        "amount": 1800
+      },
+      {
+        "num": 4,
+        "id": 4567,
+        "prod": "Widget D",
+        "category": "Electronics",
+        "sales": 3200,
+        "amount": 7000
+      },
+      {
+        "num": 5,
+        "id": 5678,
+        "prod": "Gadget E",
+        "category": "Accessories",
+        "sales": 1500,
+        "amount": 4200
+      },
+      {
+        "num": 6,
+        "id": 6789,
+        "prod": "Tool F",
+        "category": "Hardware",
+        "sales": 500,
+        "amount": 1400
+      },
+      {
+        "num": 7,
+        "id": 7890,
+        "prod": "Widget G",
+        "category": "Electronics",
+        "sales": 4500,
+        "amount": 9600
+      },
+      {
+        "num": 8,
+        "id": 8901,
+        "prod": "Gadget H",
+        "category": "Accessories",
+        "sales": 1800,
+        "amount": 3800
+      },
+      {
+        "num": 9,
+        "id": 9012,
+        "prod": "Tool I",
+        "category": "Hardware",
+        "sales": 1000,
+        "amount": 2200
+      },
+      {
+        "num": 10,
+        "id": 1011,
+        "prod": "Widget J",
+        "category": "Electronics",
+        "sales": 3000,
+        "amount": 6500
+      }
+    ],
+    "top": [
+      {
+        "id": 89724,
+        "prod": "Widget A",
+        "category": "Electronics",
+        "rate": 35,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281486562344980/maxfer_random_product_stock_image_white_background_49270046-f46a-493c-9b90-8a533729bbe9.png?width=686&height=686"
+      },
+      {
+        "id": 89734,
+        "prod": "Widget B",
+        "category": "Apparel",
+        "rate": 15,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281500839755786/maxfer_random_product_stock_image_white_background_f08860fb-0de0-45d3-88c6-60d60638e9f2.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281510369198100/maxfer_random_product_stock_image_white_background_8f54a13e-3e7b-4dfd-aa91-aba5345e9b1b.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281516950077551/maxfer_random_product_stock_image_white_background_322d7f6c-7417-40f5-89a7-2ae7e51bac36.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281524373979136/maxfer_product_stock_image_white_background_14998822-bb9a-4698-a9cd-86a56a01fce5.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281524373979136/maxfer_product_stock_image_white_background_14998822-bb9a-4698-a9cd-86a56a01fce5.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281528136278117/maxfer_product_stock_image_white_background_8f8845bc-7984-476c-9851-4314475dda8a.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281531147796520/maxfer_product_stock_image_white_background_e19b026f-b7c6-4efa-a6eb-a6474405dd94.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281535748952154/maxfer_product_stock_image_white_background_71e2e225-f99a-4ae1-81c9-43e961b43d0a.png?width=686&height=686"
+      }
+    ],
+    "pie_chart": [
+      {
+        "id": "Women",
+        "label": "Women",
+        "value": 23,
+        "color": "hsl(142, 70%, 50%)"
+      },
+      {
+        "id": "Men",
+        "label": "Men",
+        "value": 41,
+        "color": "hsl(214, 70%, 50%)"
+      },
+      {
+        "id": "Kids",
+        "label": "Kids",
+        "value": 12,
+        "color": "hsl(245, 70%, 50%)"
+      },
+      {
+        "id": "Home",
+        "label": "Home",
+        "value": 10,
+        "color": "hsl(120, 70%, 50%)"
+      },
+      {
+        "id": "Wellness",
+        "label": "Wellness",
+        "value": 14,
+        "color": "hsl(166, 70%, 50%)"
+      }
+    ],
+    "clients": [
+      {
+        "name": "Acme Design Studio",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "big_num": 87654,
+          "rate": 75,
+          "small_num": 54321,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 3245
+                },
+                {
+                  "x": "Mon",
+                  "y": 2435
+                },
+                {
+                  "x": "Tue",
+                  "y": 346
+                },
+                {
+                  "x": "Wed",
+                  "y": 23
+                },
+                {
+                  "x": "Thu",
+                  "y": 243
+                },
+                {
+                  "x": "Fri",
+                  "y": 634
+                },
+                {
+                  "x": "Sat",
+                  "y": 23
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Pixel Innovators",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "big_num": 43210,
+          "rate": 88,
+          "small_num": 12345,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 643
+                },
+                {
+                  "x": "Mon",
+                  "y": 23
+                },
+                {
+                  "x": "Tue",
+                  "y": 346
+                },
+                {
+                  "x": "Wed",
+                  "y": 524
+                },
+                {
+                  "x": "Thu",
+                  "y": 523
+                },
+                {
+                  "x": "Fri",
+                  "y": 1234
+                },
+                {
+                  "x": "Sat",
+                  "y": 254
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Creative Co",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "big_num": 65432,
+          "rate": 92,
+          "small_num": 21098,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 243
+                },
+                {
+                  "x": "Mon",
+                  "y": 624
+                },
+                {
+                  "x": "Tue",
+                  "y": 523
+                },
+                {
+                  "x": "Wed",
+                  "y": 312
+                },
+                {
+                  "x": "Thu",
+                  "y": 634
+                },
+                {
+                  "x": "Fri",
+                  "y": 234
+                },
+                {
+                  "x": "Sat",
+                  "y": 1234
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Innovation Lab",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "big_num": 78901,
+          "rate": 63,
+          "small_num": 87654,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 642
+                },
+                {
+                  "x": "Mon",
+                  "y": 623
+                },
+                {
+                  "x": "Tue",
+                  "y": 243
+                },
+                {
+                  "x": "Wed",
+                  "y": 457
+                },
+                {
+                  "x": "Thu",
+                  "y": 543
+                },
+                {
+                  "x": "Fri",
+                  "y": 5234
+                },
+                {
+                  "x": "Sat",
+                  "y": 235
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Design Guru",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "big_num": 54321,
+          "rate": 80,
+          "small_num": 43210,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 5
+                },
+                {
+                  "x": "Mon",
+                  "y": 65
+                },
+                {
+                  "x": "Tue",
+                  "y": 32
+                },
+                {
+                  "x": "Wed",
+                  "y": 78
+                },
+                {
+                  "x": "Thu",
+                  "y": 90
+                },
+                {
+                  "x": "Fri",
+                  "y": 45
+                },
+                {
+                  "x": "Sat",
+                  "y": 60
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "world": [
+      {
+        "id": "AFG",
+        "value": 287821
+      },
+      {
+        "id": "AGO",
+        "value": 697606
+      },
+      {
+        "id": "ALB",
+        "value": 967210
+      },
+      {
+        "id": "ARE",
+        "value": 681881
+      },
+      {
+        "id": "ARG",
+        "value": 923051
+      },
+      {
+        "id": "ARM",
+        "value": 674630
+      },
+      {
+        "id": "ATA",
+        "value": 279320
+      },
+      {
+        "id": "ATF",
+        "value": 897299
+      },
+      {
+        "id": "AUT",
+        "value": 837787
+      },
+      {
+        "id": "AZE",
+        "value": 892700
+      },
+      {
+        "id": "BDI",
+        "value": 284956
+      },
+      {
+        "id": "BEL",
+        "value": 645668
+      },
+      {
+        "id": "BEN",
+        "value": 169693
+      },
+      {
+        "id": "BFA",
+        "value": 967268
+      },
+      {
+        "id": "BGD",
+        "value": 779611
+      },
+      {
+        "id": "BGR",
+        "value": 849076
+      },
+      {
+        "id": "BHS",
+        "value": 937914
+      },
+      {
+        "id": "BIH",
+        "value": 352560
+      },
+      {
+        "id": "BLR",
+        "value": 558778
+      },
+      {
+        "id": "BLZ",
+        "value": 645107
+      },
+      {
+        "id": "BOL",
+        "value": 701123
+      },
+      {
+        "id": "BRN",
+        "value": 849110
+      },
+      {
+        "id": "BTN",
+        "value": 877147
+      },
+      {
+        "id": "BWA",
+        "value": 858313
+      },
+      {
+        "id": "CAF",
+        "value": 600332
+      },
+      {
+        "id": "CAN",
+        "value": 202438
+      },
+      {
+        "id": "CHE",
+        "value": 13687
+      },
+      {
+        "id": "CHL",
+        "value": 117741
+      },
+      {
+        "id": "CHN",
+        "value": 172308
+      },
+      {
+        "id": "CIV",
+        "value": 54683
+      },
+      {
+        "id": "CMR",
+        "value": 286883
+      },
+      {
+        "id": "COG",
+        "value": 334244
+      },
+      {
+        "id": "COL",
+        "value": 793591
+      },
+      {
+        "id": "CRI",
+        "value": 817783
+      },
+      {
+        "id": "CUB",
+        "value": 625880
+      },
+      {
+        "id": "-99",
+        "value": 328791
+      },
+      {
+        "id": "CYP",
+        "value": 748049
+      },
+      {
+        "id": "CZE",
+        "value": 4634
+      },
+      {
+        "id": "DEU",
+        "value": 472612
+      },
+      {
+        "id": "DJI",
+        "value": 849424
+      },
+      {
+        "id": "DNK",
+        "value": 557724
+      },
+      {
+        "id": "DOM",
+        "value": 18271
+      },
+      {
+        "id": "DZA",
+        "value": 268917
+      },
+      {
+        "id": "ECU",
+        "value": 603127
+      },
+      {
+        "id": "EGY",
+        "value": 101070
+      },
+      {
+        "id": "ERI",
+        "value": 202383
+      },
+      {
+        "id": "ESP",
+        "value": 944388
+      },
+      {
+        "id": "EST",
+        "value": 875908
+      },
+      {
+        "id": "ETH",
+        "value": 9897
+      },
+      {
+        "id": "FIN",
+        "value": 196684
+      },
+      {
+        "id": "FJI",
+        "value": 987394
+      },
+      {
+        "id": "FLK",
+        "value": 248578
+      },
+      {
+        "id": "FRA",
+        "value": 962184
+      },
+      {
+        "id": "GAB",
+        "value": 295523
+      },
+      {
+        "id": "GBR",
+        "value": 943855
+      },
+      {
+        "id": "GEO",
+        "value": 313773
+      },
+      {
+        "id": "GHA",
+        "value": 149358
+      },
+      {
+        "id": "GIN",
+        "value": 394273
+      },
+      {
+        "id": "GMB",
+        "value": 477698
+      },
+      {
+        "id": "GNB",
+        "value": 743244
+      },
+      {
+        "id": "GNQ",
+        "value": 951360
+      },
+      {
+        "id": "GRC",
+        "value": 637101
+      },
+      {
+        "id": "GTM",
+        "value": 438233
+      },
+      {
+        "id": "GUY",
+        "value": 665075
+      },
+      {
+        "id": "HND",
+        "value": 611448
+      },
+      {
+        "id": "HRV",
+        "value": 361652
+      },
+      {
+        "id": "HTI",
+        "value": 540401
+      },
+      {
+        "id": "HUN",
+        "value": 849335
+      },
+      {
+        "id": "IDN",
+        "value": 678242
+      },
+      {
+        "id": "IND",
+        "value": 45609
+      },
+      {
+        "id": "IRL",
+        "value": 433306
+      },
+      {
+        "id": "IRN",
+        "value": 503289
+      },
+      {
+        "id": "IRQ",
+        "value": 941237
+      },
+      {
+        "id": "ISL",
+        "value": 847203
+      },
+      {
+        "id": "ISR",
+        "value": 328052
+      },
+      {
+        "id": "ITA",
+        "value": 921457
+      },
+      {
+        "id": "JAM",
+        "value": 989983
+      },
+      {
+        "id": "JOR",
+        "value": 768469
+      },
+      {
+        "id": "JPN",
+        "value": 114796
+      },
+      {
+        "id": "KAZ",
+        "value": 829661
+      },
+      {
+        "id": "KEN",
+        "value": 701957
+      },
+      {
+        "id": "KGZ",
+        "value": 356424
+      },
+      {
+        "id": "KHM",
+        "value": 962581
+      },
+      {
+        "id": "OSA",
+        "value": 846751
+      },
+      {
+        "id": "KWT",
+        "value": 861908
+      },
+      {
+        "id": "LAO",
+        "value": 886143
+      },
+      {
+        "id": "LBN",
+        "value": 899292
+      },
+      {
+        "id": "LBR",
+        "value": 851944
+      },
+      {
+        "id": "LBY",
+        "value": 716544
+      },
+      {
+        "id": "LKA",
+        "value": 203355
+      },
+      {
+        "id": "LSO",
+        "value": 571321
+      },
+      {
+        "id": "LTU",
+        "value": 531219
+      },
+      {
+        "id": "LUX",
+        "value": 55564
+      },
+      {
+        "id": "LVA",
+        "value": 549304
+      },
+      {
+        "id": "MAR",
+        "value": 302724
+      },
+      {
+        "id": "MDA",
+        "value": 684060
+      },
+      {
+        "id": "MDG",
+        "value": 954406
+      },
+      {
+        "id": "MEX",
+        "value": 277504
+      },
+      {
+        "id": "MKD",
+        "value": 185757
+      },
+      {
+        "id": "MLI",
+        "value": 245264
+      },
+      {
+        "id": "MMR",
+        "value": 784171
+      },
+      {
+        "id": "MNE",
+        "value": 193288
+      },
+      {
+        "id": "MNG",
+        "value": 572803
+      },
+      {
+        "id": "MOZ",
+        "value": 522938
+      },
+      {
+        "id": "MRT",
+        "value": 47983
+      },
+      {
+        "id": "MWI",
+        "value": 574767
+      },
+      {
+        "id": "MYS",
+        "value": 396686
+      },
+      {
+        "id": "NAM",
+        "value": 799352
+      },
+      {
+        "id": "NCL",
+        "value": 495243
+      },
+      {
+        "id": "NER",
+        "value": 752589
+      },
+      {
+        "id": "NGA",
+        "value": 675751
+      },
+      {
+        "id": "NIC",
+        "value": 607566
+      },
+      {
+        "id": "NLD",
+        "value": 850697
+      },
+      {
+        "id": "NOR",
+        "value": 913871
+      },
+      {
+        "id": "NPL",
+        "value": 630565
+      },
+      {
+        "id": "NZL",
+        "value": 126725
+      },
+      {
+        "id": "OMN",
+        "value": 10173
+      },
+      {
+        "id": "PAK",
+        "value": 686084
+      },
+      {
+        "id": "PAN",
+        "value": 623540
+      },
+      {
+        "id": "PER",
+        "value": 747391
+      },
+      {
+        "id": "PHL",
+        "value": 923875
+      },
+      {
+        "id": "PNG",
+        "value": 616074
+      },
+      {
+        "id": "POL",
+        "value": 306127
+      },
+      {
+        "id": "PRI",
+        "value": 842194
+      },
+      {
+        "id": "PRT",
+        "value": 743366
+      },
+      {
+        "id": "PRY",
+        "value": 226541
+      },
+      {
+        "id": "QAT",
+        "value": 432730
+      },
+      {
+        "id": "ROU",
+        "value": 168886
+      },
+      {
+        "id": "RUS",
+        "value": 17381
+      },
+      {
+        "id": "RWA",
+        "value": 693417
+      },
+      {
+        "id": "ESH",
+        "value": 347931
+      },
+      {
+        "id": "SAU",
+        "value": 723603
+      },
+      {
+        "id": "SDN",
+        "value": 512190
+      },
+      {
+        "id": "SDS",
+        "value": 4995
+      },
+      {
+        "id": "SEN",
+        "value": 981369
+      },
+      {
+        "id": "SLB",
+        "value": 79178
+      },
+      {
+        "id": "SLE",
+        "value": 936320
+      },
+      {
+        "id": "SLV",
+        "value": 680229
+      },
+      {
+        "id": "ABV",
+        "value": 214001
+      },
+      {
+        "id": "SOM",
+        "value": 291282
+      },
+      {
+        "id": "SRB",
+        "value": 529767
+      },
+      {
+        "id": "SUR",
+        "value": 419944
+      },
+      {
+        "id": "SVK",
+        "value": 875937
+      },
+      {
+        "id": "SVN",
+        "value": 109269
+      },
+      {
+        "id": "SWZ",
+        "value": 700134
+      },
+      {
+        "id": "SYR",
+        "value": 300233
+      },
+      {
+        "id": "TCD",
+        "value": 396712
+      },
+      {
+        "id": "TGO",
+        "value": 618159
+      },
+      {
+        "id": "THA",
+        "value": 168943
+      },
+      {
+        "id": "TJK",
+        "value": 741695
+      },
+      {
+        "id": "TKM",
+        "value": 566015
+      },
+      {
+        "id": "TLS",
+        "value": 291843
+      },
+      {
+        "id": "TTO",
+        "value": 349331
+      },
+      {
+        "id": "TUN",
+        "value": 281812
+      },
+      {
+        "id": "TUR",
+        "value": 520610
+      },
+      {
+        "id": "TWN",
+        "value": 231671
+      },
+      {
+        "id": "TZA",
+        "value": 190051
+      },
+      {
+        "id": "UGA",
+        "value": 612096
+      },
+      {
+        "id": "UKR",
+        "value": 503710
+      },
+      {
+        "id": "URY",
+        "value": 555576
+      },
+      {
+        "id": "USA",
+        "value": 186340
+      },
+      {
+        "id": "UZB",
+        "value": 878786
+      },
+      {
+        "id": "VEN",
+        "value": 371006
+      },
+      {
+        "id": "VNM",
+        "value": 849218
+      },
+      {
+        "id": "VUT",
+        "value": 725403
+      },
+      {
+        "id": "PSE",
+        "value": 177317
+      },
+      {
+        "id": "YEM",
+        "value": 995953
+      },
+      {
+        "id": "ZAF",
+        "value": 58462
+      },
+      {
+        "id": "ZMB",
+        "value": 677702
+      },
+      {
+        "id": "ZWE",
+        "value": 964065
+      },
+      {
+        "id": "KOR",
+        "value": 413952
+      }
+    ]
+  }
+}
